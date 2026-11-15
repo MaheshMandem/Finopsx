@@ -1,16 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.finopsx</groupId>
     <artifactId>backend</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>finopsx-backend</name>
 
+    <!-- New services are added here as they are built -->
     <modules>
         <module>payment-service</module>
-        <module>gateway-service</module>
-        <module>auth-service</module>
-        <module>compliance-service</module>
-        <module>notification-service</module>
-        <module>common-lib</module>
     </modules>
 </project>
